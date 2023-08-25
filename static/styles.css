@@ -1,0 +1,159 @@
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+    background-color: #F3F5F9;
+}
+
+
+/* Basic styling */
+.resume-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px; /* Increase font size for a more prominent heading */
+    text-align: center;
+    margin-bottom: 30px; /* Slightly reduce the margin bottom for better spacing */
+    color: #333; /* Darken the text color for better contrast */
+    font-weight: bold; /* Add bold font weight for emphasis */
+}
+
+form {
+    border: 3px solid #ccc;
+    padding: 15px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#work_exp {
+    height: 100px;
+}
+#work_exp_achievements{
+    overflow-y: auto;
+}
+.contact-info {
+    display: flex;
+    align-items: flex-start;
+}
+#address {
+    margin-top: 5px;
+    width: 75%;
+}
+#phone {
+    margin-top: 5px;
+    width: 58%;
+    margin-left: -10px;
+}
+#email{
+    margin-top: 5px;
+    width: 85%;
+    height:30px;
+}
+
+#button {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space between the button and other elements */
+}
+
+#button input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+#button input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+.work_year{
+    margin-right:20px;
+    margin-left:10px;
+    width:7%
+}
+#education{
+    display:flex;
+}
+#education2{
+    display:flex
+}
+.ai_block{
+    display: flex; justify-content: space-between;
+    margin-bottom: -35px;
+}
+.ai_btn:hover {
+    background-color: #45a049;
+}
+
+/* Add additional styles to make it look fun and advanced */
+.ai_btn::before {
+    content: "\f0d0"; /* Content for the wand icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+/* Style the button with a shadow on focus */
+.ai_btn:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.ai_btn {
+    margin-left:12px;
+    background-color: #FFD700;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+}
+.edu-degree{
+    width:73%
+}
+.add-socials {
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+.socials {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+

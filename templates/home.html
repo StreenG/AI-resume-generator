@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Your Resume Generator</title>
+</head>
+<body>
+    <div class="resume-form">
+        <h1>Resume Generator</h1>
+        <form method="POST" action="/">
+            {{ form.csrf_token }}
+            <p>{{ form.name.label }} {{ form.name }}</p>
+            <p>{{ form.l_name.label }} {{ form.l_name }}</p>
+            <div class="ai_block">
+                <p>{{form.skills.label}}</p>
+                <p class="ai_btn">{{form.generate_ai_skills_btn}}</p>
+            </div>
+                <p>{{form.skills}}</p>
+            <div id="work_exp_block">
+                <div class="ai_block">
+                    <p>{{ form.work_exp.label}}</p>
+                    <p class="ai_btn">{{form.generate_ai_btn}}</p>
+                </div>
+                <p id="work_exp">{{ form.work_exp }}</p>
+                <br>
+                <div style="display:flex;">
+                    <p style="width:30%;">{{form.work_place.label}} {{form.work_place}}</p>
+                    <p style="width:20%; margin-right:55px;">{{form.job_role.label}} {{form.job_role}}</p>
+                    <p class="work_year" style="margin-right:70px;"> {{form.work_exp_from_year.label}} {{form.work_exp_from_year}}</p>
+                    <p class="work_year"> {{form.work_exp_to_year.label}} {{form.work_exp_to_year}}</p>
+                </div>
+            </div>
+            <div class="ai_block">
+                <p>{{form.work_achievements.label}}</p>
+                <p class="ai_btn">{{form.generate_achievements_btn}}</p>
+            </div>
+            <p id="work_exp_achievements">{{form.work_achievements}}</p>
+            <div id="education">
+                <p>{{ form.education.label}} {{ form.education }}</p> <br>
+                <p class="work_year" style="margin-right:70px;">{{form.edu_from_year.label}}{{form.edu_from_year}}</p>
+                <p class="work_year">{{form.edu_to_year.label}}{{form.edu_to_year}}</p>
+            </div>
+            <p class="edu-degree">{{form.edu_degree.label}} {{form.edu_degree}}</p>
+            <div id="education2">
+                <p>{{ form.education2.label}} {{ form.education2 }}</p> <br>
+                <p class="work_year" style="margin-right:70px;">{{form.edu_from_year2.label}}{{form.edu_from_year2}}</p>
+                <p class="work_year">{{form.edu_to_year2.label}}{{form.edu_to_year2}}</p>
+            </div>
+            <p class="edu-degree">{{form.edu_degree2.label}} {{form.edu_degree2}}</p>
+            <div class="contact-info">
+                <p id="address" >{{ form.address.label(style='margin-left: 20px;') }} {{ form.address }} </p>
+                <p id="phone" >{{ form.phone.label(style='margin-left: 15px;') }} {{ form.phone }} </p>
+                <p id="email" >{{ form.email.label }} {{ form.email }} </p>
+            </div>
+            <div class="add-socials">
+            <p class="socials" style="margin-right: 80px;">{{form.linkedin.label}} {{form.linkedin}}</p>
+            <p class="socials" >{{form.github.label}} {{form.github}}</p>
+            </div>
+            <p id="button">{{form.submit_btn}}</p>
+        </form>
+    </div>
+</body>
+</html>

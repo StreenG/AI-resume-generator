@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/cv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Sans+Hebrew:wght@600&family=Noto+Serif+Hebrew:wght@200;700&family=Open+Sans&family=Victor+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+        <div class="color-box">
+        </div>
+        <header>
+            <h1>{{ form.name }} {{ l_name }}</h1>
+            <p>{{address}}</p>
+            <p>{{ phone }} | {{ email }}</p>
+        </header>
+        <section class="about">
+                <h2 class="profile-heading">
+                    <span>קצת עליי:</span>
+                </h2>
+                <p id=work_exp_>{{ work_exp }}</p>
+        </section>
+        <section class="skills">
+            <h2 class="skills-section-heading">
+                <span>כישורים:  </span>
+            </h2>
+            <ul class="lst" style="margin-top:10px;">
+                {% for skill in skills %}
+                    <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section class="experience" style="text-align:right;">
+            <h2 class="job-section-heading">
+                <span>ניסיון תעסוקתי: </span>
+            </h2>
+            <div class="job">
+                <div class="job-and-year">
+                    <div class="job-info">
+                        <p class="years">{{ work_exp_from_year }} <span class="year-separator">-</span> {{ work_exp_to_year }}</p>
+                        <h3 class="sub-heading-h3">{{ job_role }}</h3>
+                    </div>
+                    <p class="work_place">{{ work_place }}</p>
+                </div>
+                <ul class="achievement-list">
+                    {% for achievement in work_achievements %}
+                        <li class="achievement">{{ achievement }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- Add more job entries as needed -->
+        </section>
+        <section class="education" style="text-align:right;">
+            <h2 class="education-section-heading">
+                <span>השכלה: </span>
+            </h2>
+            <div class="school">
+                <div class="school-info">
+                    <p class="years">{{edu_from_year}} <span class="year-separator">-</span> {{edu_to_year}}</p>
+                    <h3 class="sub-heading-h3">{{education}}</h3>
+                </div>
+                <ul class="lst">
+                    <li class="margin-left-list">{{edu_degree}}</li>
+                </ul>
+            </div>
+            <div class="school">
+                {%if education2%}
+                <div class="school-info">
+                    <p class="years">{{edu_from_year2}} <span class="year-separator">-</span> {{edu_to_year2}}</p>
+                    <h3 class="sub-heading-h3">{{education2}}</h3>
+                </div>
+                <ul class="lst">
+                    <li class="margin-left-list">{{edu_degree2}}</li>
+                </ul>
+                {%endif%}
+            </div>
+        </section>
+        <footer>
+            <p>
+                {%if github%}
+                <a href="{{github}}" target="_blank">GitHub</a> |
+                {%endif%}
+                {%if linkedin%}
+                <a href="{{linkedin}}" target="_blank">LinkedIn</a>
+                {%endif%}
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

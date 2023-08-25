@@ -1,0 +1,232 @@
+body {
+    direction: rtl;
+    margin: 0;
+    font-family: 'Noto Serif Hebrew', serif;
+    background-color: white;
+}
+
+.cv-container {
+    max-width: 900px;
+    max-height: 595;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-color: #aaa;
+    margin: 0;
+    font-size: 40px;
+    color:#001F3F
+}
+
+header p {
+    margin: 0;
+    color: #666;
+}
+
+.section {
+    margin: 30px 0; /* Add margin around each section */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-color: #aaa;
+    margin: 0;
+    font-size: 26px;
+    color: #333;
+    border-bottom: 3px solid #aaa;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: -10px;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.job,
+.school {
+    margin-bottom: 20px;
+}
+
+.lst {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto new lines */
+}
+
+.lst li {
+    line-height: 1.6;
+    padding: 8px 12px; /* Add padding for a more comfortable and consistent spacing */
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Set display to inline-block */
+    font-weight: 600;
+}
+
+ul li + li {
+    border-top: 1px solid #ddd;
+}
+ul li:first-child {
+    border-top: 1px solid #ddd;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+.color-box {
+    border: 20px solid #001F3F;
+}
+
+.skills {
+    text-align: right;
+    direction: rtl;
+}
+
+.experience {
+    direction: rtl;
+    margin-top: 20px; /* Add margin to separate from other sections */
+}
+
+.other-btns {
+    font-weight:bold;
+    position: absolute;
+    bottom: -350px; /* Adjust this value to control the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.profile-heading::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2bd"; /* Unicode value for the user-circle icon */
+    font-size: 1.2em; /* Increase the font size of the icon */
+    margin-right: 8px; /* Adjust the spacing between the icon and text */
+    vertical-align: top; /* Align the icon with the text baseline */
+    color:#001F3F;
+}
+
+.skills-section-heading::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0ad"; /* Unicode value for the clipboard-list icon */
+    font-size: 1.2em; /* Adjust the font size of the icon */
+    margin-right: 8px; /* Adjust the spacing between the icon and text */
+    vertical-align: top; /* Align the icon with the text baseline */
+    color:#001F3F;
+}
+.job-section-heading::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0b1"; /* Unicode value for the briefcase icon */
+    font-size: 1.2em; /* Adjust the font size of the icon */
+    margin-right: 8px; /* Adjust the spacing between the icon and text */
+    vertical-align: middle; /* Align the icon with the text baseline */
+    color:#001F3F;
+}
+.education-section-heading::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f19d"; /* Unicode value for the graduation-cap icon */
+    font-size: 1.2em; /* Adjust the font size of the icon */
+    margin-right: 8px; /* Adjust the spacing between the icon and text */
+    vertical-align: middle; /* Align the icon with the text baseline */
+    color:#001F3F;
+}
+p{
+    line-height: 1.6;
+    font-family: "Frank Ruhl Libre", sans-serif;
+}
+.profile-heading{
+     border: 0px;
+     margin-bottom: -30px;
+     border-bottom: 3px solid #aaa;
+}
+.work_place{
+    color: #001F3F; /* Desired color for the text */
+    font-weight: bold; /* Make the text bolder */
+    font-size: 22px; /* Adjust font size as needed */
+    margin-top: -10px; /* Add some spacing above the text */
+    margin-right:155px;
+}
+#work_exp_{
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.job {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    box-align: baseline;
+    display: flex;
+    align-items: baseline;
+}
+.years {
+    font-size: 17px;
+    color: #666;
+    font-weight: bold;
+}
+.year-separator {
+    margin: 0 6px; /* Adjust the spacing */
+    color: #666; /* or your desired color */
+}
+.school-info{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:flex;
+    align-items: baseline;
+}
+.achievement{
+    border:none;
+}
+.achievement-list{
+    border: none;
+    font-weight: 600
+}
+ul.achievement-list {
+    list-style-type: disc; /* Use bullet points */
+    margin: 10px 0; /* Add margin around the list */
+    margin-right:130px;
+    margin-top: -10px;
+}
+
+ul.achievement-list li {
+    margin: 5px 0; /* Add spacing between list items */
+}
+.sub-heading-h3{
+    font-size:28px;
+    color: #001F3F;
+    margin-right:50px;
+}
+.degree_list{
+    margin-top: 20px;
+    margin-right:155px;
+}
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+/* Add more styling as needed */
