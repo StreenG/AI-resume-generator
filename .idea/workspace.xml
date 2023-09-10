@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="unicorn in requirements.txt">
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/requirements.txt" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="fix requirements.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +112,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1694360876466</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="fix requirements.txt">
+      <option name="closed" value="true" />
+      <created>1694361209790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694361209790</updated>
+    </task>
+    <task id="LOCAL‎-00007" summary="fix requirements.txt">
+      <option name="closed" value="true" />
+      <created>1694361318426</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694361318426</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -125,6 +139,7 @@
     <MESSAGE value="remove dataclasses from requirements.txt" />
     <MESSAGE value="install gunicorn" />
     <MESSAGE value="unicorn in requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="unicorn in requirements.txt" />
+    <MESSAGE value="fix requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix requirements.txt" />
   </component>
 </project>
