@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="" />
+    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="">
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/test.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator" />
   </component>
   <component name="ProjectId" id="2Tt64648l7pllzt4S6YkVNTinve" />
   <component name="ProjectViewState">
