@@ -29,3 +29,4 @@ wkhtmltopdf==0.2
 WTForms==3.0.0
 yarg==0.1.9
 zipp==3.6.0
+pdfkit==1.0.0
