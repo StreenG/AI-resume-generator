@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="">
+    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="Commit 3 add requirements delete test">
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/test.py" beforeDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/requirements.txt" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +75,22 @@
       <option name="presentableId" value="Default" />
       <updated>1691849836059</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="Commit 3 add requirements delete test">
+      <option name="closed" value="true" />
+      <created>1694358808264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694358808264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 3 add requirements delete test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3 add requirements delete test" />
   </component>
 </project>
