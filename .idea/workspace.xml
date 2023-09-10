@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="fix requirements.txt" />
+    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="fix requirements.txt">
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +138,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1694361719895</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="fix requirements.txt">
+      <option name="closed" value="true" />
+      <created>1694361945696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694361945696</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="fix requirements.txt">
+      <option name="closed" value="true" />
+      <created>1694362097262</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694362097262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
