@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="fix requirements.txt">
+    <list default="true" id="88a7170b-95d2-4be2-8fea-e61602d8aa71" name="Changes" comment="rem env">
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/main.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/Resume-Generator/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +155,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1694362097262</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="rem env">
+      <option name="closed" value="true" />
+      <created>1694364484427</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1694364484427</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -166,6 +175,7 @@
     <MESSAGE value="install gunicorn" />
     <MESSAGE value="unicorn in requirements.txt" />
     <MESSAGE value="fix requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix requirements.txt" />
+    <MESSAGE value="rem env" />
+    <option name="LAST_COMMIT_MESSAGE" value="rem env" />
   </component>
 </project>

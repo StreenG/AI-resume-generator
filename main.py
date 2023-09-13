@@ -7,9 +7,18 @@ import translators as ts
 import pdfkit
 import os
 from dotenv import load_dotenv
+import os, subprocess, platform
 
-path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
-wkhtmltopdf_config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
+
+if platform.system() == 'Windows':
+    pdfkit_config = pdfkit.configuration(
+    wkhtmltopdf=os.environ.get(r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
+    )
+else:
+    WKHTMLTOPDF_CMD = subprocess.Popen(['which', os.environ.get('WKHTMLTOPDF_PATH', '/app/bin/wkhtmltopdf')],
+    stdout=subprocess.PIPE).communicate()[0].strip()
+    wkhtmltopdf_config = pdfkit.configuration(wkhtmltopdf=WKHTMLTOPDF_CMD)
+    path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
 
 
 
